@@ -1,0 +1,68 @@
+page-login {
+ .page{
+ 	background-color:#8a5a52;
+    
+  .logo{
+  	display:flex;
+  	
+  	align-items:center;
+
+  	img{
+  	width:128px;
+  	height:128px;
+    margin:auto;
+  	
+    }
+
+
+  }
+  .login-form{
+    margin:auto;
+  	background-color:white;
+  	border-radius:5px;
+  	box-shadow:0 0 5px rgba(0,0,0,0.65);
+  	width:100%;		
+  	.form-container{
+  		
+  		margin:auto;
+  	    
+     .form-icon{
+     	margin-bottom:0px;
+     	margin-top:auto;
+     	color:#747474;
+     }
+	  
+    .error-text{
+      font-size:10px;
+      color:red;
+      text-align:center;
+    }
+  .forgot-password{
+  	text-align:right;
+  		font-size:14px;
+  		color:#747474;
+  }
+
+   button{
+   	
+   	height:40px;
+   	color:white;
+
+   }
+   .signUp-text{
+   	text-align:center;
+    font-size:14px;
+    color:#747474;
+   }
+   .signUp{
+   	color:#8c5d54;
+   	
+   }
+  }
+  
+
+
+
+ }
+}
+}

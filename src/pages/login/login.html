@@ -1,0 +1,37 @@
+
+<ion-content padding class="page">
+    <div class="logo" padding>
+    <img src="./assets/imgs/app-logo.png"/>
+    </div>
+ <div class="login-form" padding>
+    <div class="form-container" >
+    <form>
+    	<ion-list>
+      <p class="error-text"  [hidden]="validForm">Username and Password are needed.</p>
+    		<ion-item >
+    		    <ion-icon name="person" class="form-icon"  item-start></ion-icon>
+    			<ion-label  floating>Username</ion-label>
+    				<ion-input type="text" name="username" [(ngModel)]="username" ></ion-input>
+  			</ion-item>
+
+  			<ion-item>
+  			    <ion-icon name="lock" class="form-icon" item-start ></ion-icon>
+    			<ion-label   floating>Password</ion-label>
+    				<ion-input type="password" name="password" [(ngModel)]="password"></ion-input>
+  			</ion-item>
+            
+            	<p class="forgot-password" padding   >Forgot Password?</p>
+            
+    	   		<button  ion-button color="secondary" (click)="loginUser()"  full >Login</button>
+    	   
+         </ion-list>
+         </form> 
+    	<p class="signUp-text" >Don't have an account?
+
+    	<a class="signUp" (click)="register()">SignUp</a>
+    	</p>
+  		  	
+   </div>
+ 	
+ </div>
+</ion-content>

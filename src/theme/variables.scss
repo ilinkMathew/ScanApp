@@ -34,27 +34,34 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
+  primary:    #8c5d54,
+  secondary:  #FEDA4B,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  icon-color:white
 );
+
+  $pimray-base:#8c5d54;
+  $secondary-base:#FEDA4B;
+  $fab-size:180px;
+  $toolbar-background:lighten($pimray-base,2%);
+  $app-background-color:#a07972;
+  
 
 
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
+$fab-ios-background-color:#FEDA4B;
 
 
 
+/* App Material Design Variables
+--------------------------------------------------
+Material Design only Sass variables can go here */
 
-// App Material Design Variables
-// --------------------------------------------------
-// Material Design only Sass variables can go here
-
-
-
+ $fab-md-background-color:#FEDA4B;
 
 // App Windows Variables
 // --------------------------------------------------
@@ -70,9 +77,10 @@ $colors: (
 // so that the above variables are used and Ionic's
 // default are overridden.
 
+
 @import "ionic.theme.default";
-
-
+  
+ 
 // Ionicons
 // --------------------------------------------------
 // The premium icon font for Ionic. For more info, please see:
