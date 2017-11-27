@@ -9,7 +9,7 @@
    "productTitle":" ",
    "productPrice":100 //numeric value
    "productImage":"", // image url
-   "productRatings":4.3, // number value
+   "productRatings":4.3, // numeric value
    "productReviews":"45 reviews",
    "productDescription":"  " 
 
